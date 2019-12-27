@@ -25,7 +25,6 @@ File structure:
   |fn_name
     |known_faces  
 
-
 Usage instructions:
 - change fn_dir (to name where directory of faces are going to be stored)
     and fn_name in face-input (where certain users faces are going to be stored)
