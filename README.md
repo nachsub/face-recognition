@@ -1,5 +1,5 @@
 # face-recognition
-Author: Nachiket Subbaraman
+Author: Nachiket Subbaraman <br />
 Dependencies: PIL, CMake, dlib, opencv-python,
 face_recognition (use pip install) and haarcascade_frontalface_default.xml
 
@@ -16,19 +16,19 @@ with the name of the file that was found.
 
 File structure:
 |posts
-  |2019
-    |markdown
+  * |2019
+    * |markdown
 |face-input.py
 |face-detection.py
 |haarcascade_frontalface_default.xml
 |fn_dir
-  |fn_name
-    |known_faces  
+  * |fn_name
+    * |known_faces  
 
 Usage instructions:
-- change fn_dir (to name where directory of faces are going to be stored)
+  * - change fn_dir (to name where directory of faces are going to be stored)
     and fn_name in face-input (where certain users faces are going to be stored)
-- make a directory using the same name as you put for fn_dir in the code
-- run face-input
-- change root variable in face-recognition to the path "fn_dir/fn_name"
-- run face-recognition
+  * - make a directory using the same name as you put for fn_dir in the code
+  * - run face-input
+  * - change root variable in face-recognition to the path "fn_dir/fn_name"
+  * - run face-recognition
