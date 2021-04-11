@@ -1,5 +1,5 @@
 # face-recognition
-
+Author: Nachiket Subbaraman
 Dependencies: PIL, CMake, dlib, opencv-python,
 face_recognition (use pip install) and haarcascade_frontalface_default.xml
 
