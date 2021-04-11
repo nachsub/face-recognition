@@ -14,7 +14,7 @@ screenshots when a matching face is found using webcam.
 The screenshot's name is saved as a datetime string concatenated
 with the name of the file that was found.
 
-File structure:
+File structure:<br />
 |posts
   * |2019
     * |markdown
